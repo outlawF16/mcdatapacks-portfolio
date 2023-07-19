@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'MCRegular';
+    src: url("fonts/MinecraftRegular-Bmg3.otf");
+}
+  
+@font-face {
+    font-family: "MCItalic";
+    src: url("fonts/MinecraftItalic-R8Mo.otf");
+}
+
+
+body {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 50px;
+    width: 100%;
+    height: 10px;
+    background-image: url("images/header.jpg")
+}
+
+ul {
+    list-style: none;
+    display: inline;
+    color: wheat;
+    float: right;
+    margin-right: 100px;
+
+}
+
+li {
+    display: inline;
+    font-size: clamp(12px, 3vw, 30px);
+}
+
+a {
+    font-family: 'MCRegular';
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+    margin-right: 50px;
+}
+
+a:active{
+    color: rgb(3, 180, 180);
+}
+
+.head {
+    font-family: "MCItalic";
+    color: black;
+    margin-top: -60px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
